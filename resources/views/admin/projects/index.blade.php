@@ -11,6 +11,9 @@
                     <h6 class="card-subtitle mb-2 text-muted">
                         {{ $project->type ? $project->type->name : 'senza categoria' }}
                     </h6>
+                    <h6 class="card-subtitle mb-2 text-muted">
+                        {{ $project->technology ? $project->technology->name : 'senza tech' }}
+                    </h6>
                     <div class="card-body">{{ $project->description }}</div>
 
                 </div>
