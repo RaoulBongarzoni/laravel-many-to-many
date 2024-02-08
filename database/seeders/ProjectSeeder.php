@@ -15,17 +15,20 @@ class ProjectSeeder extends Seeder
     {
         $projects = [
             [
-                'type_id' => 1,
+
                 'name' => 'social',
-                'description' => 'descrizione test'
+                'description' => 'descrizione test',
+
             ],
             [
                 'name' => 'politics',
-                'description' => 'descrizione test'
+                'description' => 'descrizione test',
+                'type_id' => 2
             ],
             [
                 'name' => 'altro tema',
-                'description' => 'descrizione test'
+                'description' => 'descrizione test',
+
             ],
         ];
 
